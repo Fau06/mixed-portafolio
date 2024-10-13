@@ -13,7 +13,8 @@ body {
     align-items: center;
     min-height: 100vh;
     padding: 20px;
-    background-color: #020617;
+
+
 }
 
 .wrapper {
@@ -31,7 +32,7 @@ header, .card, .info-personal, section {
     width: 100%;
     margin-bottom: 1.5rem;
     border-radius: 30px;
-    background-color: #0f172a;
+
 }
 
 header {
