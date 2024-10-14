@@ -26,10 +26,26 @@ header {
     margin-bottom: 1.5rem;
 }
 
-header a{
+header nav {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 0 20px; /* Espaciado horizontal */
+}
+
+header a {
     text-decoration: none;  
     color: white;
+    margin: 0 10px; /* Espaciado horizontal entre enlaces */
+    transition: color 0.3s; /* Transición suave para el color */
+}
 
+header a:hover {
+    color: #00a8ff; /* Cambia el color al pasar el mouse */
+}
+
+header img {
+    margin-left: 10px; /* Espaciado entre los logotipos y el texto */
 }
 
 h1, h2, h3, h4 {
@@ -84,14 +100,14 @@ a {
     text-decoration: none;
 }
 
-#frontend-skills {
+#skills {
     background-color: #0f172a;
     border-radius: 15px;
     padding: 2rem;
     margin-bottom: 2rem;
 }
 
-#frontend-skills h2 {
+#skills h2 {
     color: #38bdf8;
     margin-bottom: 1.5rem;
 }
@@ -137,3 +153,8 @@ a {
 .skill-item:hover span {
     color: #00a8ff;
 }
+
+.timg {
+    filter: invert(100%)
+}
+
